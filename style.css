@@ -1,0 +1,329 @@
+
+.concept
+{
+	background-color:#FFFFFF ;
+}
+
+													/*Liens réseaux sociaux*/
+
+.liens
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.accueil
+{
+	display: flex;
+}
+.socials 
+{
+	display:flex;
+}
+.fab 
+{
+	padding-right: 10px
+}
+.fas
+{
+	padding-right: 10px
+}
+
+a 
+{
+  outline: none;
+  color: #494747;
+  text-decoration: none;
+}
+a:link 
+{
+  color: #494747;
+;
+}
+a:visited 
+{
+  color: #494747;
+}
+a:focus {
+  color: #494747;
+}
+a:hover 
+{
+	  background: #FFFFFF;
+}
+a:active 
+{
+	  background: #FFFFFF;
+}
+
+														/* Logo Cérès */
+header 
+{
+	display: flex;
+	justify-content: center;
+font-family: 'Cinzel', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 50px;
+color: #494747;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+														/*Menu Princpial*/
+.nav 
+{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Cinzel', serif;
+
+}
+
+.nav a 
+{
+  outline: none;
+  background: rgba(222, 186, 58, 0.92);
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+}
+.nav a:link 
+{
+  color: #FFFFFF;
+;
+}
+.nav a:visited 
+{
+  color: #FFFFFF;
+}
+.nav a:focus 
+{
+  color: #FFFFFF;
+}
+.nav a:hover 
+{
+	  background: rgba(75, 123, 59, 0.74);
+}
+.nav a:active 
+{
+	  background: rgba(75, 123, 59, 0.74);
+}
+
+														/*ACCUEIL*/
+
+.photosaccueil
+{
+	display: flex;
+	padding: 20px 0 20px 0; /*Espace en haut et en bas des photos*/
+    justify-content: space-around;
+}
+.nourriture
+{
+	display: flex;
+	 object-fit: none; 
+	 margin: -30px 0 150px 0;
+
+}
+
+div
+{
+	font-family: 'Cinzel', cursive;
+}
+.bloc
+{
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+	margin: -210px 0 0 0;
+	padding: 0 0 150px 0;
+}
+.mymap	
+{
+	display: flex;
+	justify-content: flex-start;
+}
+														/*CONCEPT*/
+.texteconcept1
+{
+	display: flex;
+	justify-content: flex-start;
+	text-align: justify;
+	padding: 20px 0 20px 0;
+	flex-wrap: nowrap;
+}
+.texteconcept2
+{
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	padding: 20px 0 50px 0;
+	flex-wrap: nowrap;
+}
+.photosconcept
+{
+	display: flex;
+	justify-content: space-around;
+}
+.prix
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+
+}
+
+														/*MENU*/
+
+.menu
+{
+	background: url(backgroundcommande1.png);
+	background-repeat: no-repeat;
+}
+.pagemenu
+{
+	display: flex;
+		padding: 20px 0 10px 0;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: auto;
+}
+.boutoncommander
+{
+	display: flex;
+	padding: 50% 20% 0 0;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.boutoncommander a 
+{
+		color: rgba(222, 186, 58, 0.92);
+		text-decoration: underline;
+}
+.ardoise
+{
+	display: flex;
+	flex-direction: column;
+	padding: 0 7.5% 0 0;
+
+}
+.jour
+{
+	display: flex;
+	flex-flow: column wrap;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 36px;
+	font-weight: bold;
+}
+.menu
+{
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 10px 0;
+	text-align: center;
+	font-family: 'Macondo Swash Caps', cursive;
+}
+
+.photosmenu
+{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+														/*COMMANDE*/
+
+
+.formulaire 
+{
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.cases {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.cases {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cases
+{
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) 
+{
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.cases {
+  flex: 1 0 220px;
+}
+
+.flex-outer li p {
+  margin: 0;
+}
+
+
+.flex-outer li button 
+{
+  margin-left: auto;
+  padding: 8px 16px;
+  background: rgba(75, 123, 59, 0.74);
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+														/* SITE RESPONSIVE*/
+@media screen and (max-width:1280px)
+{
+	.pagemenu
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu
+	{
+		background: none;
+	}
+	.boutoncommander
+	{
+		display: none;
+	}
+}														
